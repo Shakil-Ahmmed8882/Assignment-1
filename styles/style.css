@@ -135,3 +135,43 @@ header {
       text-decoration: underline;
       margin-top: 5px;
     }
+
+    
+/* ================================== 
+      Service section
+ ================================== */
+.service-sec {
+      justify-content: space-around;
+      border-radius: 8px;
+      background: rgba(39, 39, 39, 0.05);
+      margin-bottom: 3.5rem;
+      margin-top: 2rem;
+      box-shadow: 1px 4px 10px rgba(128, 128, 128, 0.173);
+    }
+    .service-sec p {
+      font-size: 15px;
+    }
+    
+/* ================================== 
+      Promotion section
+ ================================== */
+.promo-sec {
+      border-radius: 8px;
+      background: rgba(229, 84, 115, 0.05);
+      gap: 3rem;
+      text-align: center;
+    }
+    
+    .content-container {
+      width: 400px;
+    }
+    .image-container {
+      width: 200px;
+    }
+    .sign-up-button {
+      display: block;
+      width: 100px;
+      margin: auto;
+      margin-top: 1.2rem;
+    }
+    
