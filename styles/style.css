@@ -2,87 +2,100 @@
 /* Reusable style for various elements */
 /* ================================== */
 body {
-      font-family: "Lato";
-    }
-    
-    * {
-      box-sizing: border-box;
-    }
-    /* Common styles for <h1> and <h2> headings */
-    
-    h1,
-    h2 {
-      font-weight: bold;
-      line-height: 1.2;
-      margin-bottom: 10px;
-      color: #272727;
-    }
-    
-    h1 {
-      font-size: 50px;
-    }
-    
-    h2 {
-      font-size: 30px;
-    }
-    
-    .clearfix::after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    .center {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .responsive-img {
-      display: block;
-      max-width: 100%;
-      height: 100%;
-    }
-    .button {
-      display: inline-block;
-      padding: 10px 20px;
-      border: none;
-      color: #fff;
-      cursor: pointer;
-      border-radius: 8px;
-      background: #e55473;
-    }
-    .icon {
-      display: flex;
-      width: 40px;
-      height: 40px;
-      vertical-align: middle;
-      margin: auto;
-    }
-    /* Two columns */
-    .column-container {
-      display: flex;
-      gap: 1.5rem;
-    }
-    /* section margin */
-    .sec-margin {
-      margin: 0 170px;
-    }
-    /* Reusable description style for <p> element */
-    .description {
-      font-size: 15px;
-      line-height: 1.5;
-      color: rgba(39, 39, 39, 0.6);
-      margin: 10px 0 15px 0;
-    }
-    .pad {
-      padding: 35px 0;
-    }
-    .primary-color {
-      color: #e55473;
-    }
-    .text-center {
-      text-align: center;
-    }
-    /* ================================== 
-                  Header
-     ================================== */
-   
+  font-family: "Lato";
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Common styles for <h1> and <h2> headings */
+
+h1,
+h2 {
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #272727;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  background: #e55473;
+}
+.icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin: auto;
+}
+/* Two columns */
+.column-container {
+  display: flex;
+  gap: 1.5rem;
+}
+/* section margin */
+.sec-margin {
+  margin: 0 170px;
+}
+/* Reusable description style for <p> element */
+.description {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(39, 39, 39, 0.6);
+  margin: 10px 0 15px 0;
+}
+.pad {
+  padding: 35px 0;
+}
+.primary-color {
+  color: #e55473;
+}
+.text-center {
+  text-align: center;
+}
+
+/* ================================== 
+              Header
+ ================================== */
+header {
+  height: 65vh;
+  background: rgba(229, 84, 115, 0.1);
+  overflow: hidden;
+}
+.hero-desc {
+  width: 80%;
+}
+.hero-img-holder {
+  width: 700px;
+  height: 400px;
+  margin-top: 2rem;
+}
