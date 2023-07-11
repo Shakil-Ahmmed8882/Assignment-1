@@ -100,125 +100,146 @@ header {
   margin-top: 2rem;
 }
 
-
 /* ================================== 
       Featured Flowers
  ================================== */
- .featured-sec {
-      text-align: center;
-    }
-    .featured-desc {
-      width: 50%;
-      margin-left: 25%;
-      margin-bottom: 1rem;
-    }
-    .featured-img-wrapper {
-      justify-content: space-around;
-    }
-    .column-img {
-      width: 260px;
-      height: 330px;
-      flex-shrink: 0;
-      border-radius: 300px 300px 0px 0px;
-      padding: 2rem;
-    }
-    .archway-1 {
-      background: rgba(167, 33, 98, 0.15);
-    }
-    .archway-2 {
-      background: rgba(5, 151, 160, 0.15) !important;
-    }
-    .archway-3 {
-      background: rgba(71, 125, 17, 0.15);
-    }
-    figcaption {
-      text-decoration: underline;
-      margin-top: 5px;
-    }
+.featured-sec {
+  text-align: center;
+}
+.featured-desc {
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 1rem;
+}
+.featured-img-wrapper {
+  justify-content: space-around;
+}
+.column-img {
+  width: 260px;
+  height: 330px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  padding: 2rem;
+}
+.archway-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.archway-2 {
+  background: rgba(5, 151, 160, 0.15) !important;
+}
+.archway-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+figcaption {
+  text-decoration: underline;
+  margin-top: 5px;
+}
 
-    
 /* ================================== 
       Service section
  ================================== */
 .service-sec {
-      justify-content: space-around;
-      border-radius: 8px;
-      background: rgba(39, 39, 39, 0.05);
-      margin-bottom: 3.5rem;
-      margin-top: 2rem;
-      box-shadow: 1px 4px 10px rgba(128, 128, 128, 0.173);
-    }
-    .service-sec p {
-      font-size: 15px;
-    }
-    
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-bottom: 3.5rem;
+  margin-top: 2rem;
+  box-shadow: 1px 4px 10px rgba(128, 128, 128, 0.173);
+}
+.service-sec p {
+  font-size: 15px;
+}
+
 /* ================================== 
       Promotion section
  ================================== */
 .promo-sec {
-      border-radius: 8px;
-      background: rgba(229, 84, 115, 0.05);
-      gap: 3rem;
-      text-align: center;
-    }
-    
-    .content-container {
-      width: 400px;
-    }
-    .image-container {
-      width: 200px;
-    }
-    .sign-up-button {
-      display: block;
-      width: 100px;
-      margin: auto;
-      margin-top: 1.2rem;
-    }
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  gap: 3rem;
+  text-align: center;
+}
 
-    
+.content-container {
+  width: 400px;
+}
+.image-container {
+  width: 200px;
+}
+.sign-up-button {
+  display: block;
+  width: 100px;
+  margin: auto;
+  margin-top: 1.2rem;
+}
 
 /* ================================== 
       Instagram section
  ================================== */
 .insta-img-container {
-      width: 25%;
-      display: flex;
-      justify-content: space-around;
-      margin-bottom: 1rem;
-    }
-    .insta-desc {
-      width: 60%;
-      margin-left: 20%;
-      margin-bottom: 2rem;
-    }
-    
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+.insta-desc {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 2rem;
+}
 
 /* ================================== 
     coupon-subscription-section
  ================================== */
 .coupon-subscription-section {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.107), rgba(0, 0, 0, 0.056)),
-        url("../flower-shop-assignment/Flower Asset/Rectangle 9.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding: 5rem;
-      margin: 1rem 170px 4rem 170px;
-    }
-    .coupon-input-wrapper {
-      gap: 5px;
-    }
-    .coupon-input-wrapper input {
-      all: unset;
-      background-color: #fff;
-      padding: 10px 130px 15px 3px;
-      border-radius: 5px;
-      margin: 0;
-    }
-    .coupon-input-wrapper input::placeholder {
-      font-size: 14px;
-    }
-    .coupon-input-wrapper .subscribe-button {
-      margin: 0;
-      padding: 14px 20px;
-    }
-    
+  background-image: linear-gradient(rgba(0, 0, 0, 0.107), rgba(0, 0, 0, 0.056)),
+    url("../flower-shop-assignment/Flower Asset/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem;
+  margin: 1rem 170px 4rem 170px;
+}
+.coupon-input-wrapper {
+  gap: 5px;
+}
+.coupon-input-wrapper input {
+  all: unset;
+  background-color: #fff;
+  padding: 10px 130px 15px 3px;
+  border-radius: 5px;
+  margin: 0;
+}
+.coupon-input-wrapper input::placeholder {
+  font-size: 14px;
+}
+.coupon-input-wrapper .subscribe-button {
+  margin: 0;
+  padding: 14px 20px;
+}
+/* ================================== 
+      Testimonial section
+ ================================== */
+.testimonial-section {
+  background: rgba(84, 229, 207, 0.1);
+}
+.testimonial-image {
+  width: 140px;
+  height: 140px;
+  margin: 1.8rem auto 1.5rem auto;
+}
+.testimonial-description {
+  width: 60%;
+  margin-left: 20%;
+  color: #363535;
+}
+.testimonial-section img {
+  object-fit: cover;
+  outline: 2px solid #00000039;
+  border-radius: 50%;
+  object-position: center;
+}
+.position-title {
+  font-size: 13px;
+  color: rgba(5, 187, 219, 0.581);
+  font-style: italic;
+}
