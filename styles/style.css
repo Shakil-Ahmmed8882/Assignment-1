@@ -243,3 +243,26 @@ figcaption {
   color: rgba(5, 187, 219, 0.581);
   font-style: italic;
 }
+
+
+/* ================================== 
+          Footer
+ ================================== */
+ footer {
+      color: #fff;
+      background-color: #000;
+      height: 260px;
+    }
+    footer h2 {
+      color: #fff;
+    }
+    .f-desc {
+      color: rgba(169, 169, 169, 0.9);
+      width: 60%;
+      margin-left: 20%;
+    }
+    .copyright {
+      color: rgba(227, 227, 227, 0.444);
+      font-size: 14px;
+    }
+    
