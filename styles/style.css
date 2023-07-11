@@ -1,6 +1,4 @@
-/* ================================== */
 /* Reusable style for various elements */
-/* ================================== */
 body {
   font-family: "Lato";
 }
@@ -8,8 +6,8 @@ body {
 * {
   box-sizing: border-box;
 }
-/* Common styles for <h1> and <h2> headings */
 
+/* Common styles for <h1> and <h2> headings */
 h1,
 h2 {
   font-weight: bold;
@@ -31,16 +29,19 @@ h2 {
   display: table;
   clear: both;
 }
+
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .responsive-img {
   display: block;
   max-width: 100%;
   height: 100%;
 }
+
 .button {
   display: inline-block;
   padding: 10px 20px;
@@ -49,7 +50,13 @@ h2 {
   cursor: pointer;
   border-radius: 8px;
   background: #e55473;
+  transition: background-color 0.2s linear;
 }
+
+.button:hover {
+  background-color: #f2395e;
+}
+
 .icon {
   display: flex;
   width: 40px;
@@ -57,15 +64,18 @@ h2 {
   vertical-align: middle;
   margin: auto;
 }
+
 /* Two columns */
 .column-container {
   display: flex;
   gap: 1.5rem;
 }
+
 /* section margin */
 .sec-margin {
   margin: 0 170px;
 }
+
 /* Reusable description style for <p> element */
 .description {
   font-size: 15px;
@@ -73,47 +83,52 @@ h2 {
   color: rgba(39, 39, 39, 0.6);
   margin: 10px 0 15px 0;
 }
+
 .pad {
   padding: 35px 0;
 }
+
 .primary-color {
   color: #e55473;
 }
+
 .text-center {
   text-align: center;
 }
 
-/* ================================== 
-              Header
- ================================== */
+/* =======================*/
+/* Header */
 header {
   height: 65vh;
   background: rgba(229, 84, 115, 0.1);
   overflow: hidden;
 }
+
 .hero-desc {
   width: 80%;
 }
+
 .hero-img-holder {
   width: 700px;
   height: 400px;
   margin-top: 2rem;
 }
 
-/* ================================== 
-      Featured Flowers
- ================================== */
+/* Featured Flowers */
 .featured-sec {
   text-align: center;
 }
+
 .featured-desc {
   width: 50%;
   margin-left: 25%;
   margin-bottom: 1rem;
 }
+
 .featured-img-wrapper {
   justify-content: space-around;
 }
+
 .column-img {
   width: 260px;
   height: 330px;
@@ -121,23 +136,25 @@ header {
   border-radius: 300px 300px 0px 0px;
   padding: 2rem;
 }
+
 .archway-1 {
   background: rgba(167, 33, 98, 0.15);
 }
+
 .archway-2 {
   background: rgba(5, 151, 160, 0.15) !important;
 }
+
 .archway-3 {
   background: rgba(71, 125, 17, 0.15);
 }
+
 figcaption {
   text-decoration: underline;
   margin-top: 5px;
 }
 
-/* ================================== 
-      Service section
- ================================== */
+/* Service section */
 .service-sec {
   justify-content: space-around;
   border-radius: 8px;
@@ -146,13 +163,12 @@ figcaption {
   margin-top: 2rem;
   box-shadow: 1px 4px 10px rgba(128, 128, 128, 0.173);
 }
+
 .service-sec p {
   font-size: 15px;
 }
 
-/* ================================== 
-      Promotion section
- ================================== */
+/* Promotion section */
 .promo-sec {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
@@ -163,9 +179,11 @@ figcaption {
 .content-container {
   width: 400px;
 }
+
 .image-container {
   width: 200px;
 }
+
 .sign-up-button {
   display: block;
   width: 100px;
@@ -173,24 +191,21 @@ figcaption {
   margin-top: 1.2rem;
 }
 
-/* ================================== 
-      Instagram section
- ================================== */
+/* Instagram section */
 .insta-img-container {
   width: 25%;
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
 }
+
 .insta-desc {
   width: 60%;
   margin-left: 20%;
   margin-bottom: 2rem;
 }
 
-/* ================================== 
-    coupon-subscription-section
- ================================== */
+/* Coupon Subscription section */
 .coupon-subscription-section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.107), rgba(0, 0, 0, 0.056)),
     url("../flower-shop-assignment/Flower Asset/Rectangle 9.png");
@@ -199,9 +214,11 @@ figcaption {
   padding: 5rem;
   margin: 1rem 170px 4rem 170px;
 }
+
 .coupon-input-wrapper {
   gap: 5px;
 }
+
 .coupon-input-wrapper input {
   all: unset;
   background-color: #fff;
@@ -209,60 +226,64 @@ figcaption {
   border-radius: 5px;
   margin: 0;
 }
+
 .coupon-input-wrapper input::placeholder {
   font-size: 14px;
 }
+
 .coupon-input-wrapper .subscribe-button {
   margin: 0;
   padding: 14px 20px;
 }
-/* ================================== 
-      Testimonial section
- ================================== */
+
+/* Testimonial section */
 .testimonial-section {
   background: rgba(84, 229, 207, 0.1);
 }
+
 .testimonial-image {
   width: 140px;
   height: 140px;
   margin: 1.8rem auto 1.5rem auto;
 }
+
 .testimonial-description {
   width: 60%;
   margin-left: 20%;
   color: #363535;
 }
+
 .testimonial-section img {
   object-fit: cover;
   outline: 2px solid #00000039;
   border-radius: 50%;
   object-position: center;
 }
+
 .position-title {
   font-size: 13px;
   color: rgba(5, 187, 219, 0.581);
   font-style: italic;
 }
 
+/* Footer */
+footer {
+  color: #fff;
+  background-color: #000;
+  height: 260px;
+}
 
-/* ================================== 
-          Footer
- ================================== */
- footer {
-      color: #fff;
-      background-color: #000;
-      height: 260px;
-    }
-    footer h2 {
-      color: #fff;
-    }
-    .f-desc {
-      color: rgba(169, 169, 169, 0.9);
-      width: 60%;
-      margin-left: 20%;
-    }
-    .copyright {
-      color: rgba(227, 227, 227, 0.444);
-      font-size: 14px;
-    }
-    
+footer h2 {
+  color: #fff;
+}
+
+.f-desc {
+  color: rgba(169, 169, 169, 0.9);
+  width: 60%;
+  margin-left: 20%;
+}
+
+footer .copyright {
+  color: rgba(227, 227, 227, 0.444);
+  font-size: 14px;
+}
