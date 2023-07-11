@@ -99,3 +99,39 @@ header {
   height: 400px;
   margin-top: 2rem;
 }
+
+
+/* ================================== 
+      Featured Flowers
+ ================================== */
+ .featured-sec {
+      text-align: center;
+    }
+    .featured-desc {
+      width: 50%;
+      margin-left: 25%;
+      margin-bottom: 1rem;
+    }
+    .featured-img-wrapper {
+      justify-content: space-around;
+    }
+    .column-img {
+      width: 260px;
+      height: 330px;
+      flex-shrink: 0;
+      border-radius: 300px 300px 0px 0px;
+      padding: 2rem;
+    }
+    .archway-1 {
+      background: rgba(167, 33, 98, 0.15);
+    }
+    .archway-2 {
+      background: rgba(5, 151, 160, 0.15) !important;
+    }
+    .archway-3 {
+      background: rgba(71, 125, 17, 0.15);
+    }
+    figcaption {
+      text-decoration: underline;
+      margin-top: 5px;
+    }
