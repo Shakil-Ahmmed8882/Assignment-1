@@ -174,4 +174,20 @@ header {
       margin: auto;
       margin-top: 1.2rem;
     }
+
     
+
+/* ================================== 
+      Instagram section
+ ================================== */
+.insta-img-container {
+      width: 25%;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 1rem;
+    }
+    .insta-desc {
+      width: 60%;
+      margin-left: 20%;
+      margin-bottom: 2rem;
+    }
